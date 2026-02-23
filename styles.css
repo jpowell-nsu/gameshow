@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+.body-index{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 75px 1fr 75px;
+}
+.header-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer-index{
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
