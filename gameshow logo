@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Block Letter Logo</title>
+
+<style>
+body {
+    background-color: #f4f1e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+}
+
+.block {
+    width: 140px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.g { background-color: #FFD700; }
+.a { background-color: #e74c3c; }
+.m { background-color: #e74c3c; }
+.e { background-color: #FFD700; }
+.s { background-color: #3498db; }
+.h { background-color: #3498db; }
+.o { background-color: #3498db; }
+.w { background-color: #3498db; }
+.block:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+</style>
+</head>
+<body>
+<div class="logo">
+    <div class="row">
+        <div class="block g">G</div>
+        <div class="block a">A</div>
+        <div class="block m">M</div>
+        <div class="block e">E</div>
+    </div>
+    <div class="row">
+        <div class="block s">S</div>
+        <div class="block h">H</div>
+        <div class="block o">O</div>
+        <div class="block w">W</div>
+    </div>
+</div>
+</body>
+</html>
