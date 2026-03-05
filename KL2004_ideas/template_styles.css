@@ -12,7 +12,6 @@ body {
 }
 
 .banner .game {
-  background: linear-gradient(to right, #f26a21, #e53935);
   color: #f5f1e8;
   flex: 1;
   text-align: center;
@@ -20,9 +19,13 @@ body {
   font-weight: 900;
   padding: 40px 0;
 }
+.g { background-color: #eb5e24; }
+.a { background-color: #a22824; }
+.m { background-color: #e54329; }
+.e { background-color: #b42536; }
 
 .banner .show {
-  background: #39c6d6;
+  background: #3ebcc5;
   color: #f5f1e8;
   flex: 1;
   text-align: center;
@@ -36,7 +39,7 @@ table {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
-    background-color: #142a4f; /* dark navy */
+    background-color: #1f315a; /* dark navy */
 }
 
 th {
@@ -47,7 +50,7 @@ th {
 
 table a {
     text-decoration: none;
-    color: #39c6d6; /* teal like NETWORK letters */
+    color: #44c8d1; /* teal like NETWORK letters */
     font-weight: 700;
     font-size: 1.2rem;
     letter-spacing: 2px;
