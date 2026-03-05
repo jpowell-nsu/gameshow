@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Game Show to Go</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="password.js"></script>
+  </head>
+  
+  <body>
+	<div class="banner"> <img src="gsn_logo.jpg"> </div>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="information.html">Learn More</a>
+		<a href="game.html">Play a Game</a>
+		<a href="Log In">Log In</a>
+	</nav>
+	
+	<form action="/signup" method="POST">
+		<div>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+		</div>
+		<div>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+			<input type="checkbox" onclick="togglepassword()">
+			<input type="submit" value="Submit">
+		</div>
+		<div>
+			<label for="confirm_password">Confirm Password:</label>
+			<input type="password" id="confirm_password" name="confirm_password" required>
+		</div>
+		
+	</form>
+	
+	<!-- finish setting up the password messaging, then get back to the banner -->
+	
+	<div id="message">
+	  <h3>Password must contain the following:</h3>
+	  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+	  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+	  <p id="number" class="invalid">A <b>number</b></p>
+	  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+	</div>
+	
+  </body>
+</html>
