@@ -48,6 +48,27 @@
   </body>
 </html>
 
+<style>
+     .banner {
+            width: 100%;
+            height: 250px;  /* control banner height here */
+            overflow: hidden;
+        }
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;  /* fills entire space */
+            object-position: center 50%; /* adjust vertical focus */
+            display: block;
+        }
+     table, th  {
+        width: 100%;
+        table-layout: fixed;
+        border: 3px solid black;
+        border-collapse:collapse;         
+      }    
+    </style>  
+
 .network-nav {
   background-color: #142a4f; /* Dark navy */
   padding: 20px 0;
@@ -74,3 +95,14 @@
 .network-nav a:hover {
   color: white;
 }
+
+
+!-- Navigation Link (NETWORK style) As a table -->
+    <table>
+		  <tr>
+        <th><a href="index.html">Home</a></th>
+		    <th><a href="information.html">Learn More</a></th>
+		    <th><a href="game.html">Play a Game</a></th>
+		    <th><a href="Log In">Log In</a></th>
+      </tr>
+    </table>

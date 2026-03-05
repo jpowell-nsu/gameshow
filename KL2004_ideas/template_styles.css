@@ -33,28 +33,27 @@ body {
 
 /* Navigation table styling */
 table {
-background-color: #142a4f; /* dark navy */
-width: 100%;
-border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #142a4f; /* dark navy */
 }
 
-table tr {
-display: flex; /* makes it act like a nav bar */
-justify-content: center; /* centers the links */
-}
-
-table th {
-padding: 20px 40px;
+th {
+    border: 3px solid white;
+    padding: 20px 40px;
+    text-align: center;
 }
 
 table a {
-text-decoration: none;
-color: #39c6d6; /* teal like NETWORK letters */
-font-weight: 700;
-font-size: 1.2rem;
-letter-spacing: 2px;
+    text-decoration: none;
+    color: #39c6d6; /* teal like NETWORK letters */
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    display: block; /* makes whole cell clickable */
 }
 
 table a:hover {
-color: white;
+    color: white;
 }
