@@ -31,30 +31,30 @@ body {
   padding: 40px 0;
 }
 
-/* Navigation Section (NETWORK look) */
-.network-nav {
-  background-color: #142a4f; /* Dark navy */
-  padding: 20px 0;
+/* Navigation table styling */
+table {
+background-color: #142a4f; /* dark navy */
+width: 100%;
+border-collapse: collapse;
 }
 
-.network-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
+table tr {
+display: flex; /* makes it act like a nav bar */
+justify-content: center; /* centers the links */
 }
 
-.network-nav a {
-  text-decoration: none;
-  color: #39c6d6; /* Teal letters like NETWORK */
-  font-weight: 700;
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-  transition: 0.3s ease;
+table th {
+padding: 20px 40px;
 }
 
-.network-nav a:hover {
-  color: white;
+table a {
+text-decoration: none;
+color: #39c6d6; /* teal like NETWORK letters */
+font-weight: 700;
+font-size: 1.2rem;
+letter-spacing: 2px;
+}
+
+table a:hover {
+color: white;
 }
