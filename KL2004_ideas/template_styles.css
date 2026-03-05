@@ -11,18 +11,41 @@ body {
   width: 100%;
 }
 
-.banner .game {
-  color: #f5f1e8;
-  flex: 1;
-  text-align: center;
-  font-size: 4rem;
-  font-weight: 900;
-  padding: 40px 0;
-}
-.g { background-color: #eb5e24; }
-.a { background-color: #a22824; }
-.m { background-color: #e54329; }
-.e { background-color: #b42536; }
+.banner .g { 
+     background-color: #eb5e24;
+     color: #f5f1e8;
+     flex: 1;
+     text-align: center;
+     font-size: 4rem;
+     font-weight: 900;
+     padding: 40px 0; }
+.banner .a { 
+     background-color: #a22824;
+     color: #f5f1e8;
+     flex: 1;
+     text-align: center;
+     font-size: 4rem;
+     font-weight: 900;
+     padding: 40px 0; 
+ }
+.banner .m { 
+     background-color: #e54329; 
+     color: #f5f1e8;
+     flex: 1;
+     text-align: center;
+     font-size: 4rem;
+     font-weight: 900;
+     padding: 40px 0; 
+    }
+.banner .e { 
+     background-color: #b42536;
+     color: #f5f1e8;
+     flex: 1;
+     text-align: center;
+     font-size: 4rem;
+     font-weight: 900;
+     padding: 40px 0; 
+    }
 
 .banner .show {
   background: #3ebcc5;
