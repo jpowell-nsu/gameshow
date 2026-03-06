@@ -9,7 +9,7 @@ body {
 .banner {
   display: flex;
   width: 100%;
-}
+} 
 
 .banner .g { 
      background-color: #eb5e24;
