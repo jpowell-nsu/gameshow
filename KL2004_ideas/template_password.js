@@ -5,4 +5,4 @@ function togglepassword() {
   } else {
     x.type = "password";
   }
-}
+} 
