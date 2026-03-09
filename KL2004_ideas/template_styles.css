@@ -1,60 +1,57 @@
 /* Reset */
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Consolas, Arial Narrow, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
 /* Banner Section (GAME SHOW look) */
 .banner {
   display: flex;
+  flex-direction: column;
   width: 100%;
-} 
+}
 
-.banner .g { 
-     background-color: #eb5e24;
-     color: #f5f1e8;
-     flex: 1;
-     text-align: center;
-     font-size: 4rem;
-     font-weight: 900;
-     padding: 40px 0; }
-.banner .a { 
-     background-color: #a22824;
-     color: #f5f1e8;
-     flex: 1;
-     text-align: center;
-     font-size: 4rem;
-     font-weight: 900;
-     padding: 40px 0; 
- }
-.banner .m { 
-     background-color: #e54329; 
-     color: #f5f1e8;
-     flex: 1;
-     text-align: center;
-     font-size: 4rem;
-     font-weight: 900;
-     padding: 40px 0; 
-    }
-.banner .e { 
-     background-color: #b42536;
-     color: #f5f1e8;
-     flex: 1;
-     text-align: center;
-     font-size: 4rem;
-     font-weight: 900;
-     padding: 40px 0; 
-    }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 50px); /* Four equal columns */
+  gap: 0px; /* Space between boxes */
+  text-align: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 900;
+  /*padding: 0px 0;*/
+  /*object-fit: cover;*/
+}
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*font-size: 2rem;*/
+  /*font-weight: bold;*/
+  color: white;
+  height: 70px;
+  margin: 0;
+  padding: 0;       /* removes inner spacing */
+  line-height: 1;   /* removes extra text spacing */
+}
+
+.box1 { background-color: #eb5e24; } 
+.box2 { background-color: #a22824; } 
+.box3 { background-color: #e54329; }
+.box4 { background-color: #b42536; }
+.boxwhite {background-color: white; }
 
 .banner .show {
   background: #3ebcc5;
-  color: #f5f1e8;
+  color: white;
   flex: 1;
   text-align: center;
   font-size: 4rem;
   font-weight: 900;
-  padding: 40px 0;
+  padding: 0px 0;
 }
 
 /* Navigation table styling */
